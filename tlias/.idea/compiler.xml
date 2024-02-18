@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-autoconfiguration-test" />
+        <module name="aliyun-oss-spring-boot-starte" />
+        <module name="tlias" />
+        <module name="aliyun-oss-spring-boot-autoconfigur" />
+        <module name="itheima-utils" />
+        <module name="jwtutil" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aliyun-oss-spring-boot-starter" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aliyun-oss-spring-boot-autoconfigur" options="-parameters" />
+      <module name="aliyun-oss-spring-boot-starte" options="-parameters" />
+      <module name="aliyun-oss-spring-boot-starter" options="-parameters" />
+      <module name="itheima-utils" options="" />
+      <module name="jwtutil" options="-parameters" />
+      <module name="springboot-autoconfiguration-test" options="-parameters" />
+      <module name="tlias" options="-parameters" />
+    </option>
+  </component>
+</project>

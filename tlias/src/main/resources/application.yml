@@ -1,0 +1,18 @@
+mybatis:
+    configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+        map-underscore-to-camel-case: true
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: 123456
+        url: jdbc:mysql://localhost:3306/tlias
+        username: root
+    servlet:
+        multipart:
+            max-file-size: 10MB
+            max-request-size: 100MB
+logging:
+    level:
+        org.springframework.jdbc.support.JdbcTransactionManager: debug
+test: 888

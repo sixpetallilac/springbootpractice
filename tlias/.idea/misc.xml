@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../aliyun-oss-spring-boot-starter" />
+    <file type="web" url="file://$PROJECT_DIR$/../aliyun-oss-spring-boot-starters/aliyun-oss-spring-boot-autoconfigures" />
+    <file type="web" url="file://$PROJECT_DIR$/aliyun-oss-spring-boot-starter" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/itheima-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/aliyun-oss-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/../aliyun-oss-spring-boot-autoconfigur/pom.xml" />
+        <option value="$PROJECT_DIR$/../aliyun-oss-spring-boot-starte/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-autoconfiguration-test/pom.xml" />
+        <option value="$PROJECT_DIR$/../jwtutil/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/aliyun-oss-spring-boot-starter/pom.xml" />
+      </set>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

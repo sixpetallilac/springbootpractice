@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.trc.tlias.Mapper.deptMapper">
+    <insert id="deptIns">
+        insert into dept (name, create_time, update_time)values (#{name},#{createTime},#{updateTime})
+    </insert>
+    <update id="deptUpdate">
+        update dept set name=#{name},update_time=#{updateTime} where id = #{id};
+    </update>
+
+    <delete id="deptDel">
+        delete from dept where id = #{id}
+    </delete>
+    <delete id="empdeptIdDel">
+        delete from emp where dept_id = #{id}
+    </delete>
+
+    <select id="selectList" resultType="com.trc.tlias.pojo.Dept">
+        select * from dept
+    </select>
+
+    <select id="deptSelect" resultType="com.trc.tlias.pojo.Dept">
+        select * from dept
+        <where>
+            <if test="id != null">id = #{ids}</if>
+        </where>
+    </select>
+
+</mapper>
